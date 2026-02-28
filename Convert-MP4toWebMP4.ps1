@@ -168,7 +168,7 @@ foreach ($mp4 in $mp4Files) {
         Write-Host "[RES]   4K detectado ($videoWidth px) -> escalando a 1080p (preset: faster)" -ForegroundColor Magenta
         $activePreset = "faster"
         $levelArg     = "4.1"
-        $scaleArg     = "scale=-2:1080"
+        $scaleArg     = "scale=1920:1080:force_original_aspect_ratio=decrease,pad=1920:1080:(ow-iw)/2:(oh-ih)/2"
     } elseif ($is4K -and $Keep4K) {
         Write-Host "[RES]   4K detectado ($videoWidth px) -> manteniendo 4K (nivel 5.1)" -ForegroundColor Magenta
         $activePreset = $Preset

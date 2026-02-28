@@ -1,11 +1,13 @@
 Requisitos:
 ffmpeg:
 https://www.ffmpeg.org/download.html
- 
+
+LAS INSTRUCCIONES DE USO SE ENCUENTRAN EN LOS FICHEROS.
+
 El script genera una carpeta para los archivos convertidos automaticamente.
 
 INSTRUCCIONES DE USO:
-
+ 
 Convert-MKVtoWebMP4.ps1
 Convierte archivos .MKV a MP4 H264/AAC optimizado para web
 (navegador): faststart, yuv420p, AAC stereo.
